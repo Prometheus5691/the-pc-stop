@@ -97,6 +97,25 @@ body{
 	font-weight: bold;	
 }
 
+form p{
+	font-size: 20px;
+}
+form select{
+	font-size: 20px;
+}
+
+#clear:hover{
+	background: #24CA21;
+	font-weight: bold;
+}	
+
+#clear{
+	font-size: 20px;
+	margin-top: 45px;
+	display: absolute;
+	border-radius: 50px;
+}
+
 footer{
 	background-color: #111333; 
 	padding: 15px 0;

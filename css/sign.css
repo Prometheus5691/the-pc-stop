@@ -70,8 +70,15 @@ body{
 	padding: 10px 0;
 	margin: 5px 0;
 }
+#clear{
+	font-size: 20px;
+	margin-top: 45px;
+	display: absolute;
+	border-radius: 50px;
+}
 
 .submit-btn{ 
+	font-size: 20px;
 	width: 75%;
 	cursor: pointer;
 	display: block;

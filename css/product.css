@@ -138,7 +138,7 @@ a.button:hover, button:focus{
 #area2{
 	margin: 0 auto 0;
 	width: 1200px;
-	height: ;
+	height: auto;
 	display: block;
 	float: right;
 	background-color: white;
@@ -168,7 +168,7 @@ a.button:hover, button:focus{
 #area4{
 	margin: 0 auto 0;
 	width: 1200px;
-	height: auto;
+	height: 600px;
 	display: block;
 	float: right;
 	background-color: white;
@@ -210,19 +210,34 @@ a.button:hover, button:focus{
 	justify-content: right;
 }
 
+#but2{
+	text-decoration: none;
+	background-color: #24CA21;
+	box-shadow: 0 0px 5px 5px #3FE6DD;
+	height: 40px;
+}
+
+#but2:hover, but2:focus{
+	color: white;
+	background-color: #3FE6DD;
+	font-weight: bold;
+}
+
 footer{
 	background-color: #111333; 
 	padding: 15px 0;
 	text-align: center;
-	position: sticky;
-	bottom: 12px;
+	position: flex;
+	bottom: 0px;
+	display: inline-block;
+	width: 100%
 }
 
 footer li{
 	 list-style: none;
 	 display: inline-flex;
 }
-
+ 
 footer p{
 	color: white;
 }
