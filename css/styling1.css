@@ -1,0 +1,54 @@
+body{
+	font-family: Arial;
+	background-color: black;
+	color: #3FE6DD;
+	size: 18px
+}
+
+#showcase{
+	background-image: url('../images/land.png');
+	background-position: center;
+	line-height: 1.8;
+	height:100vh;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+}
+
+#showcase h1{
+		font-size:30px;
+		margin-top:5px;
+}
+
+#showcase p{
+	font-size: 25px;
+	line-height:2.5;
+}
+
+
+#showcase .button{
+	font-size: 30px;
+	color: yellow;
+	border:yellow 1px solid;
+	padding:10px 20px;
+	margin-top:20px;
+	text-decoration:none;
+	border-radius:15px 15px 15px;
+}
+
+#showcase .button:hover, .button:focus{
+	background-color: #111333;
+	font-weight: bold;
+}
+
+footer{
+	text-align: center;
+}
+
+footer a{
+	text-decoration: none;
+	margin: 10px;
+	font-size: 20px;
+}

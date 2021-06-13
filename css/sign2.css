@@ -1,0 +1,116 @@
+*{
+	font-family: Roboto;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	
+}
+
+@font-face{	
+	font-family: "Roboto";
+	src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+body{
+	background-image: url('../images/bg.png');
+	background-size: cover;
+}
+
+.logo{
+	margin-left:auto;
+	width: 100px;
+	height: 100px;
+}
+
+.form-box{
+	width: 380px;
+	height: 800px;
+	margin: 6% auto;
+	background-color: #fff;
+	padding: 5px;
+}
+
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0px 10px 10px #3FE6DD;
+	border-radius: 30px;
+}
+
+.button a{
+	text-decoration: none;
+}
+
+#btn{
+	height: 100%;
+	width: 110px;
+	border-radius: 30px;
+}
+#signup{
+	background: #24CA21;
+	height: 100%;
+	width: 127px;
+	border-radius: 30px;
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+.toggle-btn a{
+	text-decoration: none;
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 210px;
+	font-size: 15px;
+}
+
+.input-field{
+	font-size: 20px;
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+}
+
+.submit-btn{ 
+	width: 75%;
+	cursor: pointer;
+	display: block;
+	border: 0;
+	border-radius: 30px;
+	padding: 10px 10px;
+	position: absolute;
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.submit-btn:hover{
+	background: #24CA21;
+	font-weight: bold;	
+}
+
+footer{
+	background-color: #111333; 
+	padding: 15px 0;
+	text-align: center;
+	position: sticky;
+	bottom: 0px;
+	display: block;
+}
+
+footer li{
+	 list-style: none;
+	 display: inline-flex;
+}
+ 
+footer p{
+	color: white;
+}
