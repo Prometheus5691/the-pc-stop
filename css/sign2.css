@@ -47,12 +47,14 @@ body{
 }
 
 #log2{
-	background-color:#24CA21;
+	background-color: #111333;
+	
 }
 
 #signup{
 	height: 100%;
-	width: 130px;	
+	width: 130px;
+	background-color:#24CA21;	
 }
 
 .btn{
