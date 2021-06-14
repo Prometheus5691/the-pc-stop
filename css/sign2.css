@@ -38,32 +38,33 @@ body{
 	border-radius: 30px;
 }
 
-.button a{
-	text-decoration: none;
-}
-
 #btn{
-	height: 100%;
-	width: 110px;
-	border-radius: 30px;
-}
-#signup{
-	background: #24CA21;
-	height: 100%;
-	width: 127px;
+	background-color: #111333;
+	height: 30px;
+	padding-top: 10px;
+	width: 220px;
 	border-radius: 30px;
 }
 
-.toggle-btn{
+#log2{
+	background-color:#24CA21;
+}
+
+#signup{
+	height: 100%;
+	width: 130px;	
+}
+
+.btn{
+	color: #fff;
+	text-decoration: none;
+	border-radius: 30px;
+	margin-top: 100px;
 	padding: 10px 30px;
 	cursor: pointer;
 	background: transparent;
-	border: 0;
-	outline: none;
+	border: none;
 	position: relative;
-}
-.toggle-btn a{
-	text-decoration: none;
 }
 
 .input-group{

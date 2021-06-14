@@ -139,7 +139,7 @@ a.button:hover, button:focus{
 	display: block;
 	float: right;
 	background-color: white;
-	flex-basis: 40%;
+	flex-basis: 40%;;
 }
 
 #text2{

@@ -3,20 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>Contact Us</title>
-	<link href="../css/contact.css" style="text/css" rel="stylesheet">
+	<link href="../css/contact.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 	<a href="homepage.html"><img src="../images/logo.png" class="logo" title="Home"></a>
-	<h1>The Pc Stop</h1> 
+	<h1 id="Name">The Pc Stop</h1> 
 		<nav>
-			<ul>
-				<li><a href="products.html">Products</a>
+		  	<ul>
+				<li><a href="#">Products</a>
 			<div class="sub-menu">
 				<ul>
-					<li><a href="#">GPUs</a></li>
-					<li><a href="#">Monitors</a></li>
-					</li>
+					<li><a href="products.html">GPUs</a></li>
+					<li><a href="products2.html">Monitors</a></li>
 				</ul>
 			</div>
 				<li><a href="about_us.html">About us</a></li>
@@ -24,26 +23,49 @@
 			</ul>
 			<a href="sign_up.html" class="button">Log In</a>
 		</nav>
-
-	<div class="footer">
-		<footer>
-        <div>
-			<ul>
-				<li><a href="#"><img src="../images/ig.png" width="60px" height="50px"></a>
-				<a href="#"><img src="../images/twit.png" width="60px" height="50px"></a></li>
-			</ul>
-            <p>&copy; 2021 Copyright: Created By: Brandon Martin</p>            
-        </div>
-    </footer>
+		
+	<div>
+		<h2>Contact Us</h2>
+			<p>To contact us please <a href="mailto:thepcstop91@gmail.com">click here</a> to send an email or message us on our social media platforms.</p><br>
+	</div>
+		
+	<div class="form-box">
+		<div class="button-box">	
+			<form id="login" class="input-group">
+				<input type="text" class="input-field" placeholder="First Name">
+				<input type="text" class="input-field" placeholder="Surname">
+				<input type="tel" class="input-field" placeholder="Phone Number">
+				<input type="email" class="input-field" placeholder="Email">
+				<input type="text" class="input-field" placeholder="Password">
+				<p id="sel">Reason:<select>
+							<option selected>None</option>
+							<option>Query on product</option>
+							<option>Business Discussions</option>
+						</select></p>
+				<input type="submit" class="submit-btn" value="Confirm">
+				<input type="reset" class="submit-btn" id="clear" value="Clear">
+			</form>				
+		</div>
 	</div>
 
-
-
-
-
-
-
-
+	<div id="feed">
+	<form>
+		<textarea rows="5" cols="35" placeholder="Please type your ideas here"></textarea><br>
+		<input type="submit" value="Submit"><input type="reset" value="Reset">
+	</form>
+	</div>
+	
+	<div class="footer">
+	<footer>
+        <div>
+			<ul>
+				<li><a href="https://www.instagram.com/the_pc_stop/"><img src="../images/ig.png" ALT="Instagram" width="60" height="50"></a>
+				<a href="https://twitter.com/thepcstop1"><img src="../images/twit.png" alt="Twitter" width="60" height="50"></a></li>
+			</ul>
+			<p>&copy; 2021 Copyright: The Pc Stop.co</p>
+        </div>                    
+    </footer>
+	</div>		
 
 
 </body>
